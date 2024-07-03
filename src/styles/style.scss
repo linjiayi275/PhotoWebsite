@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Raleway", sans-serif;
+}
+
+a{
+  text-decoration: none !important;
+  color: black;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.more-picture{
+  padding: 2.5rem;
+  button{
+    padding: 0.3rem 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    background: #ed7a9b;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+}
+
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./picture";
